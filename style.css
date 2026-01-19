@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 420px;
+  margin: auto;
+  background: #f4f4f4;
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+input, select, button {
+  width: 100%;
+  padding: 8px;
+  margin: 6px 0;
+}
+
+button {
+  background: #222;
+  color: white;
+  border: none;
+}
+
+.summary {
+  background: white;
+  padding: 10px;
+  border-radius: 6px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: white;
+  margin: 6px 0;
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.income { border-left: 5px solid green; }
+.expense { border-left: 5px solid red; }
+
+small { color: gray; }
